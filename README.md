@@ -1,2 +1,2 @@
 # suscribe-spark
-Una landing page para furros
+Una landing page de inforamcion importante
