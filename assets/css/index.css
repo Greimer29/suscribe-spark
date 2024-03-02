@@ -1,0 +1,29 @@
+:root{
+    --main-color: #e3b34b;
+    --black: #000000;
+}
+.navbar-item{
+    text-align: center;
+}
+
+.navbar-item > a{
+    color: var(--black);
+}
+
+.navbar-item > a:hover{
+    text-decoration: underline;
+    color: var(--main-color);
+}
+
+.navbar-burger:hover{
+    background-color: transparent;
+    color: var(--black);
+}
+
+nav{
+    box-shadow: 1px 1px 8px rgba(26,27,28,.1);
+}
+
+nav > ul{
+    box-shadow: none !important;
+}
