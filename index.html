@@ -39,10 +39,10 @@
             <a href="#advantages" class="title is-6">Advantages</a>
           </li>
           <li class="navbar-item">
-            <a href="#" class="title is-6">Testimonies</a>
+            <a href="#testimonies" class="title is-6">Testimonies</a>
           </li>
           <li class="navbar-item">
-            <a href="#" class="title is-6">FAQs</a>
+            <a href="#faqs" class="title is-6">FAQs</a>
           </li>
         </div>
       </ul>
@@ -52,7 +52,7 @@
   <!-- Esta seccion es explicita y unicamente para el body -->
 
   <section class="section">
-    <div class="columns">
+    <div class="columns superior ">
       <div class="column">
         <section class="section is-align-items-center is-justify-content-center">
           <div class="container">
@@ -77,7 +77,7 @@
           </div>
         </section>
       </div>
-      <div class="column">
+      <div class="column scrollable">
         <section class="hero is-primary">
           <div class="hero-body">
             <div class="container  is-justify-content-center">
@@ -272,5 +272,14 @@
     showSlide(currentSlide);
   </script>
 </body>
+
+<style>
+   .columns.superior {
+            height: 100vh; /* Ajusta la altura del contenedor de columnas al 100% de la altura de la ventana */
+        }
+    .column.scrollable {
+            overflow-y: auto; /* Permite el desplazamiento vertical */
+      }
+</style>
 
 </html>
