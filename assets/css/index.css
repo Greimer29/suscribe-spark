@@ -46,6 +46,10 @@ nav > ul{
     animation: fadeIn ease 1s;
 }
 
+.footer {
+    background-color: #E6B04B;
+}
+
 @media (min-width: 600px) {
     body {
         flex-direction: row;
