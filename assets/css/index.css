@@ -1,0 +1,74 @@
+:root{
+    --main-color: #e3b34b;
+    --black: #000000;
+}
+.navbar-item{
+    text-align: center;
+}
+
+.navbar-item > a{
+    color: var(--black);
+}
+
+.navbar-item > a:hover{
+    text-decoration: underline;
+    color: var(--main-color);
+}
+
+.navbar-burger:hover{
+    background-color: transparent;
+    color: var(--black);
+}
+
+nav{
+    box-shadow: 1px 1px 8px rgba(26,27,28,.1);
+}
+
+nav > ul{
+    box-shadow: none !important;
+}
+
+.holaxd{
+    position: fixed;
+    height: 70vh;
+    width: 500px;
+}
+.animated_container {
+    animation: fadeInLeft 1s ease-out; /* ajusta la duración y la función de temporización según sea necesario */
+  }
+  
+
+  .user-card {
+    max-width: 400px; /* Ajusta según tus necesidades */
+    margin: 0 auto;
+}
+
+.testimonial-card {
+    display: inline-block;
+    margin: 10px;
+}
+.fade-in {
+    animation: fadeIn ease 1s;
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
