@@ -1,87 +1,102 @@
-:root{
-    --main-color: #e3b34b;
-    --black: #000000;
-}
-.navbar-item{
-    text-align: center;
+:root {
+  --main-color: #e3b34b;
+  --black: #000000;
 }
 
-.navbar-item > a{
-    color: var(--black);
+.navbar-item {
+  text-align: center;
 }
 
-.navbar-item > a:hover{
-    text-decoration: underline;
-    color: var(--main-color);
+.navbar-item>a {
+  color: var(--black);
 }
 
-.navbar-burger:hover{
-    background-color: transparent;
-    color: var(--black);
+.navbar-item>a:hover {
+  text-decoration: underline;
+  color: var(--main-color);
 }
 
-nav{
-    box-shadow: 1px 1px 8px rgba(26,27,28,.1);
+.navbar-burger:hover {
+  background-color: transparent;
+  color: var(--black);
 }
 
-nav > ul{
-    box-shadow: none !important;
+nav {
+  box-shadow: 1px 1px 8px rgba(26, 27, 28, .1);
+}
+
+nav>ul {
+  box-shadow: none !important;
 }
 
 .animated_container {
-    animation: fadeInLeft 1s ease-out; /* ajusta la duración y la función de temporización según sea necesario */
-  }
-  
+  animation: fadeInLeft 1s ease-out;
+  /* ajusta la duración y la función de temporización según sea necesario */
+}
 
-  .user-card {
-    max-width: 400px; /* Ajusta según tus necesidades */
-    margin: 0 auto;
+
+.user-card {
+  max-width: 400px;
+  /* Ajusta según tus necesidades */
+  margin: 0 auto;
 }
 
 .testimonial-card {
-    display: inline-block;
-    margin: 10px;
+  display: inline-block;
+  margin: 10px;
 }
+
 .fade-in {
-    animation: fadeIn ease 1s;
+  animation: fadeIn ease 1s;
 }
 
 .footer {
-    background-color: #E6B04B;
+  background-color: #E6B04B;
 }
 
 @media (min-width: 600px) {
-    body {
-        flex-direction: row;
-    }
+  body {
+    flex-direction: row;
+  }
 
-    .hero-section {
-        flex: 2;
-    }
+  .hero-section {
+    flex: 2;
+  }
 
-    .content-section {
-        flex: 1.5;
-    }
+  .content-section {
+    flex: 1.5;
+  }
 }
 
 
 @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeOut {
-    0% { opacity: 1; }
-    100% { opacity: 0; }
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes fadeInLeft {
-    from {
-      opacity: 0;
-      transform: translateX(-30px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
   }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
