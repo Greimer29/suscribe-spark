@@ -28,11 +28,6 @@ nav > ul{
     box-shadow: none !important;
 }
 
-.holaxd{
-    position: fixed;
-    height: 70vh;
-    width: 500px;
-}
 .animated_container {
     animation: fadeInLeft 1s ease-out; /* ajusta la duración y la función de temporización según sea necesario */
   }
@@ -49,6 +44,20 @@ nav > ul{
 }
 .fade-in {
     animation: fadeIn ease 1s;
+}
+
+@media (min-width: 600px) {
+    body {
+        flex-direction: row;
+    }
+
+    .hero-section {
+        flex: 2;
+    }
+
+    .content-section {
+        flex: 1.5;
+    }
 }
 
 
