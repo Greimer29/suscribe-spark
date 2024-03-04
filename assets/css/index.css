@@ -3,6 +3,10 @@
   --black: #000000;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;;
+}
+
 .navbar-item {
   text-align: center;
 }
@@ -55,6 +59,18 @@ nav>ul {
 
 .footer {
   background-color: #E6B04B;
+}
+
+.not-down{
+    flex: 1; /* Ocupa el espacio disponible */
+    padding: 20px;
+    position: sticky;
+    top: 0; /* Fija la columna en la parte superior */
+}
+
+.dow{
+    flex: 1; /* Ocupa el espacio disponible */
+    padding: 20px;
 }
 
 @media (min-width: 600px) {

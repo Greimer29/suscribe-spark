@@ -39,10 +39,10 @@
             <a href="#advantages" class="title is-6">Advantages</a>
           </li>
           <li class="navbar-item">
-            <a href="#testimonies" class="title is-6">Testimonies</a>
+            <a href="#" class="title is-6">Testimonies</a>
           </li>
           <li class="navbar-item">
-            <a href="#faqs" class="title is-6">FAQs</a>
+            <a href="#" class="title is-6">FAQs</a>
           </li>
         </div>
       </ul>
@@ -52,9 +52,9 @@
   <!-- Esta seccion es explicita y unicamente para el body -->
 
   <section class="section">
-    <div class="columns superior ">
-      <div class="column">
-        <section class="section is-align-items-center is-justify-content-center">
+    <div class="columns">
+      <div class="column ">
+        <section class="section is-align-items-center is-justify-content-center not-down">
           <div class="container">
             <div class="container animated_container">
               <figure class="image is-128x128">
@@ -77,8 +77,8 @@
           </div>
         </section>
       </div>
-      <div class="column scrollable">
-        <section class="hero is-primary">
+      <div class="column dow">
+        <section class="hero">
           <div class="hero-body">
             <div class="container  is-justify-content-center">
               <h1 class="title">SuscribeSpark</h1>
@@ -88,38 +88,41 @@
             </div>
           </div>
         </section>
-        <section class="container mb-6 pb-5" id="advantages">
+        <section class="container pt-3 mt-3 mb-6 pb-5" id="advantages">
           <h1 class="title">Advantages</h1>
           <div class="columns is-vcentered">
             <div class="column is-8">
-              <p class="title p-4 is-primary card">Exclusive access to premium content.
+              <p class="is-size-4 p-4 is-primary card">Exclusive access to premium content.
               </p>
             </div>
           </div>
           <div class="columns is-vcentered">
             <div class="column">
-              <p class=" is-primary">Second column with more content. This is so you can see the vertical alignment.</p>
+              <figure class="image is-128x128">
+                <img src="./assets/icon/flecha.png">
+              </figure>
             </div>
             <div class="column is-8">
-              <p class="title p-4 is-primary card">Special offers and promotions.
+              <p class="is-size-4 p-4 is-primary card">Special offers and promotions.
               </p>
             </div>
           </div>
           <div class="columns is-vcentered">
             <div class="column is-8">
-              <p class="title p-4 is-primary card">Networking opportunities with other professionals.
+              <p class="is-size-4 p-4 is-primary card">Networking opportunities with other professionals.
               </p>
             </div>
             <div class="column">
-              <p class=" is-primary">Second column with more content. This is so you can see the vertical alignment.</p>
+              <p class="is-primary">Second column with more content. This is so you can see the vertical alignment.</p>
             </div>
           </div>
           <div class="columns is-vcentered">
             <div class="column">
-              <p class=" is-primary">Second column with more content. This is so you can see the vertical alignment.</p>
-            </div>
+              <figure class="image is-128x128">
+                <img src="./assets/icon/flecha.png">
+              </figure>            </div>
             <div class="column is-8">
-              <p class="title p-4 is-primary card">And many more!!
+              <p class="is-size-4 p-4 is-primary card">And many more!!
               </p>
             </div>
           </div>
@@ -272,14 +275,5 @@
     showSlide(currentSlide);
   </script>
 </body>
-
-<style>
-   .columns.superior {
-            height: 100vh; /* Ajusta la altura del contenedor de columnas al 100% de la altura de la ventana */
-        }
-    .column.scrollable {
-            overflow-y: auto; /* Permite el desplazamiento vertical */
-      }
-</style>
 
 </html>
